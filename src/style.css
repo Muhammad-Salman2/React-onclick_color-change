@@ -1,0 +1,165 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #FF5733, #33B5FF); /* First color, Second color */
+}
+
+
+
+.background-blur {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle at 20% 30%, rgba(255, 183, 197, 0.8), transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(135, 206, 235, 0.7), transparent 40%),
+                radial-gradient(circle at 50% 50%, rgba(144, 238, 144, 0.6), transparent 50%);
+    backdrop-filter: blur(20px); /* Increased blur effect */
+    z-index: -1; /* Sends background behind the content */
+}
+.main-container {
+    width: 10in;
+    height: 5in;
+    border-radius: 20px;
+    
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 0.3in;
+    /* padding-top: 3in; */
+}
+
+.buttonsDiv {
+    /* border: 1px solid red; */
+    width: 9in;
+    height: 0.5in;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+
+    
+}
+
+
+.redbtn {
+    width: 60px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.redbtn:hover {
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds shadow */
+}
+.bluebtn {
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bluebtn:hover {
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds shadow */
+}
+.greenbtn {
+    width: 75px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+.greenbtn:hover {
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds shadow */
+}
+.yellowbtn {
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+.yellowbtn:hover {
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds shadow */
+}
+.purplebtn {
+    width: 75px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+.purplebtn:hover {
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds shadow */
+}
+.blackbtn {
+    width: 65px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+.blackbtn:hover {
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds shadow */
+}
+.whitebtn {
+    width: 65px;
+    height: 30px;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+.whitebtn:hover {
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds shadow */
+}
